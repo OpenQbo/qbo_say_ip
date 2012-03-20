@@ -1,13 +1,12 @@
 <package>
-  <description brief="qbo_sayIP">
+  <description brief="qbo_say_ip">
 
      qbo_sayIP
 
   </description>
   <author>qbobot</author>
-  <license>BSD</license>
+  <license>GPL v2</license>
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/qbo_sayIP</url>
   <depend package="rospy"/>
   <depend package="qbo_listen"/>
   <depend package="qbo_system_info"/>
