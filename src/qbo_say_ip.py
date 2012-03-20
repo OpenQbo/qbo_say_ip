@@ -81,7 +81,7 @@ def sayIP():
 #
 def say(sentence):
     rospy.wait_for_service("/Qbo/festivalSay")
-    festival = rospy.ServiceProxy("/Qbo/festivalSay", Text2Speach  )
+    festival = rospy.ServiceProxy("/qbo_talk/festival_say", Text2Speach  )
     
     festival(sentence)
 
